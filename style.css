@@ -1,0 +1,822 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+body::before{
+content: "";
+display: block;
+height: 60px;
+}
+a{
+    text-decoration: none;
+    
+}
+
+                                                    /* navbars */
+.navbar-dark .navbar-brand {
+    color: #004080;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #004080;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #004080;
+}
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    color: #004080;
+}
+.nabs-buttons {
+    border-radius: 40px;
+    background-color: #0066FF;
+    padding: 7px 28px;
+    color: white;
+}
+.nabs-buttons:hover{
+    color: white;
+}
+                                        /* end nabs bar */
+
+
+
+                            /* showcase items start  */
+.home-manu-text .tittle {
+    font-size: 50px;
+    line-height: 60px;
+}
+.tittle{
+    color: #004080;
+}
+                                /* showcase items end  */
+/* clients company logos start */
+.clients-company-tittles{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: normal;
+    color: #004080;
+    /* margin-bottom: 20px; */
+}
+.clients-company-logos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.clients-company-logos img{
+    width: 70px;
+}
+
+                    /* clients company logos end */
+
+            /* What We Do? start */
+.my-service{
+    padding-top: 30px;
+    /* padding-bottom: 40px; */
+    background-color: #004080;
+}
+.servic-tittle h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.servic-tittle p {
+    color: white;
+    text-align: center;
+    padding: 0px 288px;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+                            /* What We Do? end */
+
+            /* .box-01 */
+.box-web{
+    background-image: linear-gradient(to bottom right, #4568DC,#B06AB3);
+    
+}
+.wb-tittle {
+    font-size: 22px;
+    text-align: left;
+    margin-left: 10px;
+}
+.web-phara{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.web-developments-btn{
+    background-color: white;
+    border-radius: 40px;
+    padding: 5px 20px;
+    border: none;
+    font-weight: bold;
+    color: #7454AE;
+    
+}
+/* box 01 end */
+
+/* box 02  start */
+.box-apps{
+    background-color: white !important;
+    border-right: 1px solid #465C72;
+    border-bottom: 1px solid #465C72;
+}
+.app-icons{
+    background-color: #eaedf0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apps-tittle {
+    font-size: 22px;
+    text-align: left;
+    margin-left: 10px;
+    color: #004080;
+}
+.apps-phara{
+    font-size: 18px;
+    margin-top: 15px;
+    color: #18325B;
+}
+.apps-developments-btn{
+   background-color: white;
+    border-radius: 40px;
+    padding: 5px 20px;
+    border: 1px solid #7454AE;
+    font-weight: bold;
+    color: #7454AE;
+    
+}
+.view-btns{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+}
+.view-btns a p {
+    font-size: 19px;
+    color: white;
+    display: block;
+    margin-bottom: 0;
+    line-height: 1px;
+}
+.line {
+    background: white;
+    width: 66px;
+    height: 2px;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+
+/* start-project  */
+
+.start-project p{
+    font-size: 22px;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    color: #004080;
+}
+.start-project h3{
+    color: #004080;
+    font-size: 28px;
+    font-weight: bold;
+}
+    /* start-project end  */
+                        /* <!-- Learn sections /Why Choose Us?  --> */
+
+#learn{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.learn-tittle{
+    /* padding-top: 30px; */
+    /* padding-bottom: 40px; */
+    /* background-color: #004080; */
+    padding-bottom: 20px;
+}
+.learn-tittle h2{
+    color: #004080;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.learn-tittle p {
+    color: #004080;
+    text-align: center;
+    padding: 0px 288px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+        /* Learn sections /Why Choose Us? end */
+
+                      /* chose -items */
+.choose-us-items{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.open-surces-items{
+    /* margin: auto; */
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px;
+
+}
+.head-icons {
+    margin: 0 auto;
+    background-color: #EF2D2D;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 50%;
+}
+.icofont-unique-idea{
+    font-size: 25px;
+    color: white;
+}
+.open-text{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 19px;
+    color: #EF2D2D;
+}
+
+                        /* items 02 */
+.update-items{
+    /* margin: auto; */
+    width: 150px;
+    height: 150px;
+    background-color: #EF2D2D;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px;
+
+}
+.sercles-icons {
+    margin: 0 auto;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 50%;
+}
+.icofont-spinner-alt-3{
+    font-size: 26px;
+    color: #EF2D2D;
+}
+.update-text{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 19px;
+    color: white;
+}
+                            /* items 03 */
+.Research-items{
+    /* margin: auto; */
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px;
+
+}
+.recycle-icons {
+    margin: 0 auto;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 50%;
+}
+.icofont-chart-pie-alt{
+    font-size: 26px;
+    color: #0066FF;
+}
+.Research-text{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 19px;
+    color: #0066FF;
+}
+
+                            /* items 04 */
+.Supports-items{
+    /* margin: auto; */
+    width: 150px;
+    height: 150px;
+    background-color: #0066FF;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px;
+
+}
+.hat-icons {
+    margin: 0 auto;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 50%;
+}
+.icofont-hat-alt{
+    font-size: 26px;
+    color: #4979D1;
+}
+.Supports-text{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 19px;
+    color: white;
+}
+
+
+                                                        /* Our Instructors start */
+            /* The actual timeline (the vertical ruler) */
+
+#Timeline{
+    background-color: #004080;
+}
+
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+                        /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .container-tim {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .container-tim::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+  
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 50%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -12px;
+}
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+  }
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+    /* Place the timelime to the left */
+    .timeline::after {
+    left: 31px;
+    }
+    
+    /* Full-width containers */
+    .container-tim {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+    
+    /* Make sure that all arrows are pointing leftwards */
+    .container-tim::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    }
+  
+    /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+    left: 15px;
+    }
+    
+    /* Make all right containers behave like the left ones */
+    .right {
+    left: 0%;
+    }
+  }
+  
+
+
+/* Our Instructors end */
+
+
+                                                    /* learn Blogos start */
+
+.blogs-tittle{
+    /* padding-top: 30px; */
+    /* padding-bottom: 40px; */
+    /* background-color: #004080; */
+    padding-bottom: 20px;
+}
+.blogs-tittle h2{
+    color: #004080;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.blogs-tittle p {
+    color: #004080;
+    text-align: center;
+    padding: 0px 332px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.blogs-card{
+    margin-bottom: 10px;
+}
+.blogs-card h5{
+    color: #004080;
+}
+.blogs-card p{
+    color: black;
+    margin-bottom: 25px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.blogs-card a{
+    border: 2px solid #0066FF;
+    padding: 4px 20px;
+    border-radius: 40px;
+    color: black;
+    font-weight: 500;
+    
+}
+
+
+.News-btns{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+}
+.News-btns a p {
+    font-size: 19px;
+    color: #0066FF;
+    display: block;
+    margin-bottom: 0;
+    line-height: 1px;
+}
+.line2 {
+    background: #0066FF;
+    width: 106px;
+    height: 2px;
+    margin-left: 0px;
+    display: inline-block;
+}
+                                                                /* learn Blogos  end  */
+                                    /* OUR PROTFOLIO start */
+ .section-title p{
+    max-width: 700px;
+    margin: 30px  auto;
+    padding-bottom: 20px;
+}
+ .protfolto{
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+}
+.hero-btn {
+  background: black;
+  color: white;
+  padding: 10px 15px;
+  transition: 0.6s;
+  margin-left: 8px;
+  font-size: 12px;
+  margin-bottom: 19px;
+}
+.single-protfolto-tittle {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  bottom: -100%;
+  color: #0066FF;
+  transition: 0.4s;
+}
+/* .hero-btn:hover{
+  background: #E8576F;
+  color: white;
+} */
+.hero-btn2{
+  background: #0066FF;
+  color: white;
+}
+
+/* .image01{
+  margin-bottom: 6%;
+  margin-top: 4%;
+} */
+
+.single-protfolto{
+  position: relative;
+  overflow: hidden;
+}
+.single-protfolto-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  top: -100%;
+  transition: 0.4s;
+} 
+.single-protfolto:hover .single-protfolto-overlay{
+  top: 0;
+
+}
+.single-protfolto:hover .single-protfolto-tittle{
+ bottom: 0;
+  
+}
+
+.portfolio-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.portfolio-nav button{
+  padding: 12px 24px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.portfolio-nav button:hover{
+  background: #004080;
+  border: 1px solid #004080;
+}
+
+/* OUR PROTFOLIO end */
+
+/* Testimonials */
+
+.testimonials-tittle p{
+    text-align: center;
+    color: #004080;
+    margin-bottom: 0;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.testimonials-tittle h2{
+    color: #004080;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.Testimonials-items {
+    border: 2px solid #ccc;
+    border-top: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 16px 0
+  }
+  
+  .testimonials-card::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .testimonials-card img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .testimonials-card span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  .testimonials-card p{
+      text-align: center;
+      font-size: 21px;
+      line-height: 25px;
+  }
+  .Testimonials-items h2{
+      margin-top: 20px;
+      font-size: 30px;
+      color: #0066FF;
+      line-height: 15px;
+  }
+  .Testimonials-items h3{
+      color: #AFAFAF;
+      font-size: 22px;
+      font-weight: 300;
+      margin-bottom: 0px;
+  }
+  .client-image{
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .client-image img{
+      width: 50px;
+      height: auto;
+      border-radius: 50%;
+  }
+  .see-more h2 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 132px;
+}
+/* Testimonials end  */
+
+/* footers */
+#footers{
+    background-color: #052545;
+    padding-bottom: 20px;
+}
+.footer-logo h2{
+    font-size: 24px;
+    color: #0066FF;
+    margin-bottom: 50px;
+}
+
+.btn-outline-secondary {
+    color: white;
+    /* border-color: none; */
+    background: #0066FF;
+}
+.btn-outline-secondary:hover {
+    color: rgb(255, 255, 255);
+    background-color: #004080;
+    /* border-color: none; */
+}
+
+.footer-left-text p{
+    color: white;
+    line-height: 25px;
+    margin-top: 30px;
+}
+.footers-service-items{
+    text-align: left;
+    padding-left: 30px;
+}
+.footers-service-items h2{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-left: 2rem;
+}
+.footers-service-items ul li{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+.footers-service-items ul li a{
+    text-align: left;
+    color: white;
+
+}
+.footers-service-items img{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+/* footers end  */
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px)  {
+    .news-input{
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .Testimonials-items {
+        text-align: center;
+    }
+    .Testimonials-items img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
